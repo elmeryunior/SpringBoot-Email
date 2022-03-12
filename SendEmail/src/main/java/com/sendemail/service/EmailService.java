@@ -32,8 +32,8 @@ public class EmailService {
 	
 	public void sendEmail() {
 		SimpleMailMessage message = new SimpleMailMessage();
-		message.setFrom("user@gmail.com");
-		message.setTo("user@gmail.com");
+		message.setFrom("usuario@gmail.com");
+		message.setTo("usuario@gmail.com");
 		message.setSubject("Correo simple de prueba");
 		message.setText("Este es el contenido del correo");
 		
